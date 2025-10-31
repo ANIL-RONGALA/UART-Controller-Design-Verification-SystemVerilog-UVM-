@@ -1,0 +1,17 @@
+BEGIN 3:dut_if:fast__2:work
+    addr :  1:top:fast:work
+    rdata :  1:top:fast:work
+    reset :  1:top:fast:work
+    cmd :  1:top:fast:work
+    wdata :  1:top:fast:work
+    clock :  1:top:fast:work
+    en :  1:top:fast:work
+END 
+BEGIN 3:dut_if:fast__1:work
+    clock :  1:my_testbench_pkg:fast:work
+    cmd :  1:my_testbench_pkg:fast:work
+    rdata :  1:my_testbench_pkg:fast:work
+    addr :  1:my_testbench_pkg:fast:work
+    reset :  1:my_testbench_pkg:fast:work
+    wdata :  1:my_testbench_pkg:fast:work
+END 
