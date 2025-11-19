@@ -1,3 +1,5 @@
+#🧪 UART Controller Design & Verification
+
 SystemVerilog + UVM Verification Environment
 
 EDA Playground demo: https://edaplayground.com/x/F3b9
