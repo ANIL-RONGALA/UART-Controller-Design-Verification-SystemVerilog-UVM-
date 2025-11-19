@@ -1,4 +1,4 @@
-#🧪 UART Controller Design & Verification
+🧪 UART Controller Design & Verification
 
 SystemVerilog + UVM Verification Environment
 
