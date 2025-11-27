@@ -9,7 +9,7 @@ This repository contains the RTL design and full UVM verification environment fo
 The verification environment has been validated using QuestaSim 2024.3_1 and is reproducible both locally and on EDA Playground.
 
 ## 📘 1. Project Overview
-
+---
 The UART controller supports:
 
 Configurable baud rate
@@ -41,7 +41,7 @@ Scoreboard and coverage subscribers
 This project demonstrates capability in modern verification methodology and is structured to be extended for protocol-level testing, randomization, and coverage closure.
 
 ## 📂 2. Directory Structure
-
+---
 ```text
 uart-uvm-verification/
 │
@@ -70,7 +70,7 @@ uart-uvm-verification/
 ```
 
 ## ⚙️ 3. How to Run (Local QuestaSim)
-
+---
 ```
 qrun -batch \
      -uvmhome uvm-1.2 \
@@ -83,7 +83,7 @@ qrun -batch \
 The provided run.do or run.sh can also be used.
 
 ## 🌐 4. Run Online (EDA Playground)
-
+---
 A fully working version of the testbench is available on EDA Playground:
 
 🔗 https://edaplayground.com/x/F3b9
@@ -99,6 +99,7 @@ Modify sequences, RAL, callbacks interactively
 This makes it ideal for demonstration, teaching, or remote collaboration.
 
 ## 🔍 5. Verification Flow Summary
+---
 ✔ Reset Phase
 
 Driver applies initial reset sequence.
@@ -163,7 +164,7 @@ mirrored register values
 DUT printed messages
 
 ## 🧾 6. Real Simulation Output (Summary)
-
+---
 From your Questa log:
 
 0 UVM_FATAL
@@ -183,7 +184,7 @@ Callback logic successfully cleared flags
 Overall, the simulation is fully functional and demonstrates a correct UVM environment.
 
 ## 📈 7. Functional Coverage (Current Status)
-
+---
 This test (my_test_cb) only exercises register behavior, not full UART protocol timing.
 
 Covered:
@@ -227,7 +228,7 @@ injected error cases
 deeper functional covergroups
 
 ## 🧩 8. Known Warnings & Fixes
-
+---
 ### 1. Clocking block output illegal expression
 ---
 
@@ -252,7 +253,7 @@ Use:
 -access=rw
 
 ## 🚀 9. Future Extensions
-
+---
 ### A. Protocol-Level Verification
 ---
 
@@ -303,13 +304,13 @@ timing-based bins
 Add packet-level scoreboard for bit-level checking.
 
 ## 📌 10. Suggested Repository Name
-
+---
 uart-controller-uvm-verification
 
 Professional, descriptive, and ideal for academic visibility.
 
 ## 📝 11. Acknowledgments
-
+---
 This project was developed as part of advanced digital design verification practice. It reflects practical experience with UVM methodology, RAL models, callbacks, predictor design, and register-level verification.
 
 This project was developed under the academic guidance of Dr. Yuha Chen, Department of Electrical and Computer Engineering, University of Houston.
