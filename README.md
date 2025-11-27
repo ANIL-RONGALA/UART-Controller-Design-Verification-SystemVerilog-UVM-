@@ -176,26 +176,27 @@ deeper functional covergroups
 
 ## 🧩 8. Known Warnings & Fixes
 ### 1. Clocking block output illegal expression
-
+---
 Fix:
 Do not read clocking block output signals directly.
 
 ### 2. Duplicate +UVM_TESTNAME
-
+---
 Fix:
 Use only one:
 
 +UVM_TESTNAME=my_test_cb
 
 ### 3. +acc deprecation
-
+---
 Use:
 
 -access=rw
 
 ## 🚀 9. Future Extensions
-### A. Protocol-Level Verification
 
+### A. Protocol-Level Verification
+---
 Add sequences to verify:
 
 TX bit shifting
@@ -205,7 +206,7 @@ Parity check logic
 Frame errors
 
 ### B. Error Injection
-
+---
 Test:
 
 baud mismatch
@@ -214,11 +215,11 @@ FIFO overflow
 break condition
 
 ### C. Loopback Environment
-
+---
 Connect UART TX → RX internally to validate full datapath.
 
 ### D. Coverage Driven Enhancements
-
+---
 Add covergroups for:
 
 parity × stop-bit × baud cross
@@ -227,7 +228,7 @@ FIFO boundary states
 timing-based bins
 
 ### E. Scoreboarding Expansion
-
+---
 Add packet-level scoreboard for bit-level checking.
 
 ## 📌 10. Suggested Repository Name
